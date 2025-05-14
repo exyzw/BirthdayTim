@@ -1,0 +1,40 @@
+body{
+	background-color: #27374D;
+	color: #9DB2BF;
+}
+
+h2{
+	font-family: Helvetica;
+	font-size: 50px;
+	text-align:center;
+	padding: 100px 0px 0px 30px;
+}
+
+#padding{
+	padding: 0px 350px;
+}
+
+.box{
+	border: 5px solid #526D82;
+	padding:0px 30px;
+	border-radius: 3px;
+	text-align: justify;
+	width: 100%;
+	font-family: Verdana;
+	box-sizing: border-box;
+}
+
+.box ul{
+	list-style-position: inside;	
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
